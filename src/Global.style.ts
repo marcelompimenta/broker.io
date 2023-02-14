@@ -9,6 +9,11 @@ export const GlobalStyle = createGlobalStyle`
   outline: none;
 }
 
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
 body {
   background-color: ${({theme}) => theme.background};
   color: ${({theme}) => theme.primary.text};

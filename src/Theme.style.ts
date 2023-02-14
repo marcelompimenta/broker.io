@@ -3,7 +3,7 @@ const Theme = {
   background: '#060914',
   primary: {
     text: '#47586E',
-    border: '#909DAD',
+    border: '#3b3f43',
     contrast: '#1D242D'
   },
   hover: '#546881',
