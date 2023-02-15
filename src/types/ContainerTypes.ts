@@ -6,4 +6,10 @@ export interface IcontainerProps {
   bottom?: number
   left?: number
   right?: number
+  border?: boolean
+  colorBorder?: string
+  radius?: number
+  bgColor?: boolean
+  padding?: number
+  justify?: string
 }

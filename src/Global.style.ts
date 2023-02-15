@@ -9,14 +9,9 @@ export const GlobalStyle = createGlobalStyle`
   outline: none;
 }
 
-#root {
-  width: 100%;
-  height: 100vh;
-}
-
 body {
-  background-color: ${({theme}) => theme.background};
-  color: ${({theme}) => theme.primary.text};
+  background-color: ${({ theme }) => theme.background};
+  color: ${({ theme }) => theme.primary.text};
   font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
@@ -26,6 +21,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+svg:hover {
+  cursor: pointer;
 }
 
 `
